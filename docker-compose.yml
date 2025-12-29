@@ -11,7 +11,7 @@ services:
       MYSQL_PASSWORD: yfpass
       MYSQL_ROOT_PASSWORD: rootpass
     ports:
-      - "3306:3306"
+      - "3307:3307"
     volumes:
       - mysql_data:/var/lib/mysql
 
